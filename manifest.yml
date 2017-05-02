@@ -1,0 +1,5 @@
+applications:
+- name: infinite-fizz-buzz
+  buildpack: java_buildpack
+  memory: 512m
+  path: target/infinite-fizz-buzz-0.0.1-SNAPSHOT.jar
